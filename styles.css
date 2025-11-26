@@ -7,7 +7,7 @@
     --gradient: linear-gradient(135deg, #005BBB, #009A44);
   }
 
-.about-info-list ul {
+  .about-info-list ul {
     list-style: none;
     padding-left: 0;
   }
@@ -223,5 +223,4 @@
       max-width: 420px;
       margin: 0 auto;
     }
-
   }
