@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>School No.190 | Tashkent, Uzbekistan</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header id="header">
+    <nav class="container">
+        <div class="logo">
+            <a href="#home" class="logo-link">School <span>No.190</span></a>
+          </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="mobile-menu" id="mobileMenu"><i class="fas fa-bars"></i></div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content container">
+      <h1>Welcome to School No.190</h1>
+      <p>One of the best secondary schools in Tashkent • Quality education since 1985</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About <span>Our School</span></h2>
+      <div class="about-grid">
+        <div class="about-img">
+          <img src="https://storage.kun.uz/source/9/enVOUHsrGDzIprfsls44LAKnIbrvZVvO.jpg" alt="School No.190">
+        </div>
+        <div class="about-text">
+          <p>Secondary School No. 190 was founded in 1985 and is located in <strong>Yalangach massif, 10, Chilanzar district, Tashkent</strong>.</p>
+          <p>We teach more than 2200 students from grades 1 to 11. The school is famous for its strong academic results, modern laboratories and victories in national olympiads.</p>
+          <ul>
+            <li>2200+ students</li>
+            <li>150+ qualified teachers</li>
+            <li>Computer & science laboratories</li>
+            <li>Winners of National Olympiads 2023–2025</li>
+            <li>Trilingual education: Uzbek · Russian · English</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="schedule" class="section bg-light">
+    <div class="container">
+      <h2>Weekly <span>Schedule</span> <small>(Grade 9 – example)</small></h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr><th>Time</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>08:00–08:45</td><td>Uzbek Literature</td><td>Mathematics</td><td>English</td><td>History</td><td>Physics</td></tr>
+            <tr><td>09:00–09:45</td><td>Mathematics</td><td>Physics</td><td>Uzbek Language</td><td>English</td><td>Chemistry</td></tr>
+            <tr><td>10:00–10:45</td><td>English</td><td>Chemistry</td><td>Mathematics</td><td>Geography</td><td>Biology</td></tr>
+            <tr><td>11:00–11:45</td><td>History</td><td>English</td><td>Physical Education</td><td>Informatics</td><td>Uzbek Literature</td></tr>
+            <tr><td>12:00–12:45</td><td>Physical Education</td><td>Biology</td><td>Art</td><td>Mathematics</td><td>Constitution</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="news" class="section">
+    <div class="container">
+      <h2>Latest <span>News</span></h2>
+      <div class="news-form">
+        <h3>Add News Post</h3>
+        <input type="text" id="newsTitle" placeholder="Title" required>
+        <textarea id="newsText" rows="4" placeholder="News content..."></textarea>
+        <button onclick="addNews()" class="btn">Publish News</button>
+      </div>
+      <div class="news-grid" id="newsContainer"></div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section bg-light">
+    <div class="container">
+      <h2>Photo <span>Gallery</span></h2>
+      <div class="gallery-grid">
+        <a href="https://storage.kun.uz/source/9/lZycPKURUjL1Phdo7OvC-MoVhd64bpRc.jpg0" data-fancybox="gallery"><img src="https://storage.kun.uz/source/9/lZycPKURUjL1Phdo7OvC-MoVhd64bpRc.jpg" alt=""></a>
+        <a href="https://images.unsplash.com/photo-1522202176988-66273c2b12e8?w=1600" data-fancybox="gallery"><img src="https://storage.kun.uz/source/9/KcxDMw1qCr3bEuyeSmrAzLvw3ODPhPmH.jpg" alt=""></a>
+        <a href="https://images.unsplash.com/photo-1596495717958-0b1d2be94620?w=1600" data-fancybox="gallery"><img src="https://storage.kun.uz/source/9/eleDcV0ED2CADsU8rlBXg74qcxSQ5fFH.jpg" alt=""></a>
+        <a href="https://images.unsplash.com/photo-1519452575411-28bf3f0f5d03?w=1600" data-fancybox="gallery"><img src="https://storage.kun.uz/source/9/PZVNZZsYmKEmbVH0RmrDaPH0xonyIWie.jpg" alt=""></a>
+        <a href="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1600" data-fancybox="gallery"><img src="https://storage.kun.uz/source/9/enVOUHsrGDzIprfsls44LAKnIbrvZVvO.jpg" alt=""></a>
+        <a href="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1600" data-fancybox="gallery"><img src="./photo_2024-05-24_15-07-18.jpg" alt="broken"></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact <span>Us</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p><i class="fas fa-map-marker-alt"></i> <strong>Yalangach massif, 10</strong>, Chilanzar district, Tashkent, Uzbekistan</p>
+          <p><i class="fas fa-phone"></i> +998 71 277-33-90</p>
+          <p><i class="fas fa-envelope"></i> info@school190.uz</p>
+          <p><i class="fas fa-clock"></i> Mon–Fri: 08:00 – 17:00</p>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.5!2d69.218!3d41.294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b294b5f6b6b%3A0x8f8e8e8e8e8e8e8e!2z0J_QvtGA0YLQsNC50YHQutCw0Y8g0YLQtdC70YwgMTAsIDEwMDAwMCwg0KLQsNGI0LrQuNC9!5e0!3m2!1sru!2s!4v1700000000000" 
+            width="100%" height="320" style="border:0;border-radius:16px;margin-top:2rem;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="contact-form">
+          <h3>Send Message</h3>
+          <form action="#" method="get">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Secondary School No.190 • Yalangach massif, 10, Tashkent</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
